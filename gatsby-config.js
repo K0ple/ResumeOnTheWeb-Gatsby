@@ -60,12 +60,15 @@ module.exports = {
         display: `swap`,
       },
     },
+<<<<<<< HEAD
+=======
     {
       resolve: `gatsby-source-dribbble`,
       options: {
         access_token: process.env.DRIBBBLE_TOKEN,
       },
     },
+>>>>>>> afc2d14ec74216ca3ff66c5441a0cd8be43b8841
     `gatsby-plugin-postcss`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -77,6 +80,21 @@ module.exports = {
       },
     },
     {
+<<<<<<< HEAD
+      resolve: `gatsby-plugin-scroll-indicator`,
+      options: {
+        // Configure color of the scroll indicator
+        color: "#663391",
+        // Height of the scroll indicator
+        height: "3px",
+        // Configure paths where the scroll indicator will appear
+        // Configure the z-index of the indicator element
+        zIndex: `9999`,
+      },
+    },
+    {
+=======
+>>>>>>> afc2d14ec74216ca3ff66c5441a0cd8be43b8841
       resolve: `gatsby-source-dev`,
       options: {
         username: `amruthpillai`,
@@ -101,8 +119,14 @@ module.exports = {
     {
       resolve: `gatsby-source-instagram-all`,
       options: {
+<<<<<<< HEAD
+        access_token: process.env.INSTAGRAM_TOKEN,
+      },
+    },
+=======
         access_token: process.env.INSTAGRAM_TOKEN
       }
     }
+>>>>>>> afc2d14ec74216ca3ff66c5441a0cd8be43b8841
   ],
 };
