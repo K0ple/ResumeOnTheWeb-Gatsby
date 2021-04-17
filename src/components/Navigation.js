@@ -2,10 +2,16 @@ import Tooltip from "@material-ui/core/Tooltip";
 import { graphql, useStaticQuery } from "gatsby";
 import GatsbyImage from "gatsby-image";
 import React, { useContext, useEffect, useState } from "react";
+<<<<<<< HEAD
+import { animateScroll as scroll } from "react-scroll";
+import ThemeContext from "../context/ThemeContext";
+import { IoIosMoon, IoIosSunny } from "./Icons";
+=======
 import { animateScroll as scroll, scroller } from "react-scroll";
 import ThemeContext from "../context/ThemeContext";
 import sections from "../data/sections";
 import { IoIosMoon, IoIosSunny, MdMenu } from "./Icons";
+>>>>>>> afc2d14ec74216ca3ff66c5441a0cd8be43b8841
 import styles from "./Navigation.module.css";
 
 const Navigation = () => {
@@ -37,6 +43,8 @@ const Navigation = () => {
       smooth: "easeInOutCubic",
     });
 
+<<<<<<< HEAD
+=======
   const scrollTo = id =>
     scroller.scrollTo(id, {
       delay: 50,
@@ -57,6 +65,7 @@ const Navigation = () => {
     );
   };
 
+>>>>>>> afc2d14ec74216ca3ff66c5441a0cd8be43b8841
   return (
     <div
       className={`${styles.container} animated ${
@@ -69,6 +78,8 @@ const Navigation = () => {
         </div>
       </Tooltip>
 
+<<<<<<< HEAD
+=======
       <div className="hidden md:flex flex-col justify-center items-center">
         <div className={styles.menu}>
           <MdMenu />
@@ -76,6 +87,7 @@ const Navigation = () => {
         <div className={styles.sectionLinks}>{sections.map(SectionLink)}</div>
       </div>
 
+>>>>>>> afc2d14ec74216ca3ff66c5441a0cd8be43b8841
       <Tooltip title="Toggle Dark Mode" placement="right" arrow>
         <div
           className="flex-center cursor-pointer hover:text-primary-500"

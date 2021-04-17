@@ -18,6 +18,10 @@
     "gatsby-plugin-postcss": "^3.7.0",
     "gatsby-plugin-react-helmet": "3.10.0",
     "gatsby-plugin-robots-txt": "^1.5.5",
+<<<<<<< HEAD
+    "gatsby-plugin-scroll-indicator": "^1.0.1",
+=======
+>>>>>>> afc2d14ec74216ca3ff66c5441a0cd8be43b8841
     "gatsby-plugin-sharp": "2.14.3",
     "gatsby-plugin-sitemap": "^2.12.0",
     "gatsby-source-dev": "^0.1.1",

@@ -35,9 +35,19 @@ const Footer = () => {
       />
 
       <div className="pt-24 pb-8 text-xs leading-relaxed opacity-25">
+<<<<<<< HEAD
+        <div>Forked from Amruth Pillai Resume on the Web.</div>
+        <div>
+          Please checkout his original repo at{" "}
+          <a href="https://github.com/AmruthPillai/ResumeOnTheWeb-Gatsby">
+            Please checkout the original repo!
+          </a>
+        </div>
+=======
         <div>Licensed under MIT.</div>
         <div>Copyright {new Date().getFullYear()} Amruth Pillai.</div>
         <div>Made with Love in Bengaluru, India.</div>
+>>>>>>> afc2d14ec74216ca3ff66c5441a0cd8be43b8841
       </div>
     </section>
   );
